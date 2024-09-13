@@ -11,12 +11,13 @@ import java.util.List;
 /**
  * 4) Simple Todo_List
  * Este exercício remove e adiciona tarefas enquanto persiste os dados
+ *
  */
-public class TodoList {
+public class Exercise4 {
 
     private File file;
 
-    public TodoList(String fileName) {
+    public Exercise4(String fileName) {
         this.file = createFile(fileName);
     }
 
