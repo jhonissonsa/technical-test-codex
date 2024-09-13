@@ -12,39 +12,8 @@ public class WorldClockEntity {
     private String ordinalDate;
     private String serviceResponse;
 
-    public String getId() {
-        return id;
-    }
-
     public String getCurrentDateTime() {
         return currentDateTime;
     }
 
-    public String getUtcOffset() {
-        return utcOffset;
-    }
-
-    public boolean isDayLightSavingsTime() {
-        return isDayLightSavingsTime;
-    }
-
-    public String getDayOfTheWeek() {
-        return dayOfTheWeek;
-    }
-
-    public String getTimeZoneName() {
-        return timeZoneName;
-    }
-
-    public long getCurrentFileTime() {
-        return currentFileTime;
-    }
-
-    public String getOrdinalDate() {
-        return ordinalDate;
-    }
-
-    public String getServiceResponse() {
-        return serviceResponse;
-    }
 }

@@ -7,14 +7,14 @@ import java.util.regex.Pattern;
  * Faz a validação do cnpj
  *
  * */
-public class CNPJ {
+public class Exercise1 {
 
     private String value;
 
-    public CNPJ() {
+    public Exercise1() {
     }
 
-    public CNPJ(String value) {
+    public Exercise1(String value) {
         this.value = validate(value) ? value : null;
     }
 
